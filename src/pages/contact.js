@@ -60,7 +60,6 @@ export default function Contact() {
         <div className={styles.mb3}>
           <label htmlFor="exampleInputEmail1" className={styles.formlabel}>Email address</label>
           <input type="email" value={email} onChange={handleChange} className="form-control" id="email" aria-describedby="emailHelp" name='email' />
-          <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div className={styles.mb3}>
           <label htmlFor="phone" className={styles.formlabel}>Phone</label>
